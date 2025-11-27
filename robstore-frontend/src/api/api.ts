@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://ecommerce-fullstack-backend-5byr.onrender.com";
 
 export const fetchProducts = async () => {
   const res = await fetch(`${API_URL}/products`);

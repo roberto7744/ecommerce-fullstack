@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "Backend simple para RobStore",
   "main": "dist/server.js",
+  "type": "module",
   "scripts": {
-    "dev": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
